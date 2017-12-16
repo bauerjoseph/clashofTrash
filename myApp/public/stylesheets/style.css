@@ -17,3 +17,7 @@ img#logo {
 ul#nav li {
   display: inline;
 }
+
+a#leaderboard {
+  float: right;
+}
