@@ -14,10 +14,19 @@ img#logo {
   margin-right: auto;
 }
 
-ul#nav li {
-  display: inline;
+ul#nav {
+  display: flex;
+  justify-content: center;  
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a#leaderboard {
-  float: right;
+ul#nav li {
+  display: flex;
+  justify-content: center;
 }
+
+ul#login {
+  list-style-type: none;
+}
+
